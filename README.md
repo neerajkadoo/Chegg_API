@@ -3,7 +3,7 @@
 This is a automation suite created for the https://jsonblob.com 
 The JSON blob supports POST, GET, PUT, DELETE methods
 
-To run the test cases from command line
+To run the test cases from command line go to CheggAPIAutomation directory and 
 Use following command
 
 > mvn test
