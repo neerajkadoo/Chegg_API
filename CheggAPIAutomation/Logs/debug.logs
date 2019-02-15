@@ -1,0 +1,21 @@
+2019-02-15 11:41:23 INFO  JsonBlob:50 - Running test createBlob
+2019-02-15 11:41:25 INFO  JsonBlob:59 - Status code for post call is 201 and Location is https://jsonblob.com/api/jsonBlob/adc3eeb6-3159-11e9-8bfe-4945538efd47
+2019-02-15 11:41:25 INFO  JsonBlob:63 - Create blob test executed
+2019-02-15 11:41:25 INFO  JsonBlob:70 - Running test getBlob
+2019-02-15 11:41:25 INFO  JsonBlob:25 - Running test getLocationHeader
+2019-02-15 11:41:25 INFO  JsonBlob:34 - Status code of post call is 201
+2019-02-15 11:41:25 INFO  JsonBlob:41 - Resourse header location https://jsonblob.com/api/jsonBlob/ae07fc97-3159-11e9-8bfe-a7f1d17dfdde
+2019-02-15 11:41:25 INFO  JsonBlob:73 - Location header after new blob created is https://jsonblob.com/api/jsonBlob/ae07fc97-3159-11e9-8bfe-a7f1d17dfdde
+2019-02-15 11:41:26 INFO  JsonBlob:77 - Get blob test executed
+2019-02-15 11:41:26 INFO  JsonBlob:82 - Running test updateBlob
+2019-02-15 11:41:26 INFO  JsonBlob:90 - Status code of post call is 201
+2019-02-15 11:41:26 INFO  JsonBlob:95 - Resource body created is io.restassured.internal.RestAssuredResponseImpl@76a36b71
+2019-02-15 11:41:26 INFO  JsonBlob:99 - Location header is https://jsonblob.com/api/jsonBlob/ae9f3388-3159-11e9-8bfe-995ec8915c2e
+2019-02-15 11:41:26 INFO  JsonBlob:105 - New resourse body created is io.restassured.internal.RestAssuredResponseImpl@ce5a68e
+2019-02-15 11:41:26 INFO  JsonBlob:114 - Running test deleteBlob
+2019-02-15 11:41:26 INFO  JsonBlob:25 - Running test getLocationHeader
+2019-02-15 11:41:27 INFO  JsonBlob:34 - Status code of post call is 201
+2019-02-15 11:41:27 INFO  JsonBlob:41 - Resourse header location https://jsonblob.com/api/jsonBlob/af11f289-3159-11e9-8bfe-774e668de962
+2019-02-15 11:41:27 INFO  JsonBlob:117 - Location header after new blob created is https://jsonblob.com/api/jsonBlob/af11f289-3159-11e9-8bfe-774e668de962
+2019-02-15 11:41:27 INFO  JsonBlob:124 - After resoiurse is deleted the status code is 200
+2019-02-15 11:41:28 INFO  JsonBlob:134 - GET call Status code of Deleted resourse is 404

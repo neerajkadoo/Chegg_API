@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="APITest" duration-ms="4914" started-at="2019-02-15T19:41:23Z" finished-at="2019-02-15T19:41:28Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="4914" started-at="2019-02-15T19:41:23Z" finished-at="2019-02-15T19:41:28Z">
+      <class name="JSONBlobTest.JsonBlob">
+        <test-method status="PASS" signature="createBlob()[pri:1, instance:JSONBlobTest.JsonBlob@28d25987]" name="createBlob" duration-ms="1678" started-at="2019-02-15T19:41:23Z" finished-at="2019-02-15T19:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBlob -->
+        <test-method status="PASS" signature="getBlob()[pri:2, instance:JSONBlobTest.JsonBlob@28d25987]" name="getBlob" duration-ms="999" started-at="2019-02-15T19:41:25Z" finished-at="2019-02-15T19:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBlob -->
+        <test-method status="PASS" signature="updateBlob()[pri:3, instance:JSONBlobTest.JsonBlob@28d25987]" name="updateBlob" duration-ms="622" started-at="2019-02-15T19:41:26Z" finished-at="2019-02-15T19:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBlob -->
+        <test-method status="PASS" signature="deleteBlob()[pri:4, instance:JSONBlobTest.JsonBlob@28d25987]" name="deleteBlob" duration-ms="1598" started-at="2019-02-15T19:41:26Z" finished-at="2019-02-15T19:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBlob -->
+      </class> <!-- JSONBlobTest.JsonBlob -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- APITest -->
+</testng-results>

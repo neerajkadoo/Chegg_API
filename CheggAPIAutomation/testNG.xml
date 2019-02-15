@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="APITest" verbose="1" preserve-order="true">
+    <test name="Regression1">
+        <groups>
+            <run>
+                <exclude name=""  />
+                <include name=""  />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="JSONBlobTest.JsonBlob">
+                <methods>
+                    <include name="createBlob"/>
+                    <include name="getBlob"/>
+                    <include name="updateBlob"/>
+                    <include name="deleteBlob"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
